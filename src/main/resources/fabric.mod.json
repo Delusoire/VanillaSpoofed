@@ -1,29 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "vanillaspoofed",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "VanillaSpoofed",
+  "description": "This fabric has a vanilla smell to it.",
   "authors": [
-    "Me!"
+    "Delusoire"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "",
+  "icon": "assets/icon.png",
 
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "mixins.json"
   ],
 
   "depends": {
@@ -33,6 +28,5 @@
     "java": ">=16"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }
